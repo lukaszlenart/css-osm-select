@@ -1,4 +1,5 @@
-css-osm-select
+CSS osm! <select>
 ==============
 
-Simple example how you can style &lt;select> element just with pure CSS
+Simple example how you can style `<select>` element just with pure CSS, eg.
+![](req.png)
