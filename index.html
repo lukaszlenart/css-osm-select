@@ -9,6 +9,49 @@
       font-weight: normal;
       font-style: normal;
     }
+
+    .wrapper {
+      position: relative;
+      width: 150px;
+    }
+
+    .dropdown {
+      border: 1px solid #2CA7E5;
+    }
+
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      background: transparent;
+
+      border: none;
+      color: #1455A2;
+
+      width: 100%;
+      padding: 6px;
+
+      text-indent: 0.01px;
+      text-overflow: "";
+    }
+
+    .dropdown:after {
+      background: none repeat scroll 0 0 #2CA7E5;
+      color: #FFFFFF;
+
+      content: "\f078";
+      font-family: 'FontAwesome';
+      font-size: 14px;
+
+      padding: 8px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
+      z-index: -1;
+    }
   </style>
 </head>
 
