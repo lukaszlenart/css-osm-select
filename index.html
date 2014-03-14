@@ -28,6 +28,7 @@
 
       border: none;
       color: #1455A2;
+      outline: none;
 
       width: 100%;
       padding: 6px;
@@ -51,6 +52,17 @@
       bottom: 0;
 
       z-index: -1;
+    }
+
+    /* This hides dropdown button arrow in IE */
+    select::-ms-expand {
+      display: none;
+    }
+
+    /* This hides focus around selected option in FF */
+    select:-moz-focusring {
+      color: transparent;
+      text-shadow: 0 0 0 #000;
     }
   </style>
 </head>
